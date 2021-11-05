@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="589cc068221140508ccbf775ed08254f" Name="Diagram1">
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Cuenta" Width="1.5" PointX="3" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Error" Width="1.5" PointX="3" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Estadistica" Width="1.5" PointX="3" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Moneda" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Pago" Width="1.5" PointX="8.25" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Servicio" Width="1.5" PointX="6" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Sesion" Width="1.5" PointX="3" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Transferencia" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Usuario" Width="1.5" PointX="0.75" PointY="14.375" IsExpanded="true" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Cuenta_Moneda" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Cuenta_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Pago_Cuenta" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Transferencia_Cuenta" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Error_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Estadistica_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Pago_Servicio1" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Sesion_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Transferencia_Cuenta1" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Credito" Width="1.5" PointX="5.25" PointY="15.25" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Deposito_Plazo" Width="1.5" PointX="5.25" PointY="18.375" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Marchamo" Width="1.5" PointX="5.25" PointY="21.5" />
+        <EntityTypeShape EntityType="INTERNET_BANKING_DW1_3C2021Model.Tarjeta" Width="1.5" PointX="5.25" PointY="24.375" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Credito_Cuenta" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Deposito_Plazo_Cuenta" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Marchamo_Cuenta" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Tarjeta_Cuenta" />
+        <AssociationConnector Association="INTERNET_BANKING_DW1_3C2021Model.FK_Deposito_Plazo_Moneda" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
